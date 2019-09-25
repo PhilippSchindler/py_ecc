@@ -15,7 +15,7 @@ pip install py_ecc
 ```python
 from py_ecc import bls
 
-domain = 43
+domain = b'\x43'
 
 private_key = 5566
 public_key = bls.privtopub(private_key)
